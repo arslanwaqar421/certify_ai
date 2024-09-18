@@ -1,0 +1,58 @@
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+  }
+
+  .custom-select-container {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custom-select-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .custom-select-container select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .custom-select-container select:focus {
+    border-color: #224abe;
+  }
+
+  .custom-button {
+    width: 100px;
+    background: #224abe;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    transition: background-color 0.3s ease; /* Optional: smooth transition */
+  }
+
+  .custom-button:hover {
+    background: #11285e; /* Change to desired hover color */
+  }

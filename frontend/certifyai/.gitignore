@@ -1,0 +1,63 @@
+# Backend Environment Files
+/backend/.env
+/backend/certifyAI/.env
+
+# Backend Configurations
+/backend/certifyAI/app/config.py
+
+# Node modules (frontend dependencies)
+/frontend/certifyai/node_modules/
+
+# Yarn Plug'n'Play
+/frontend/certifyai/.pnp
+.pnp.js
+
+# Vendor files (if they are external dependencies)
+/frontend/certifyai/public/vendor/
+
+# Testing coverage reports
+/frontend/certifyai/coverage/
+
+# Logs
+*.log
+
+# Cache and build files
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Python virtual environments
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+
+# MacOS system files
+.DS_Store
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Frontend build files
+/frontend/certifyai/dist/
+frontend/certifyai/build/
+
+# React environment files (if used)
+frontend/certifyai/.env.local
+frontend/certifyai/.env.development
+frontend/certifyai/.env.production
+frontend/certifyai/.env.test
+
+# Ignore package-lock and yarn-lock (if not used)
+/frontend/certifyai/package-lock.json
+/frontend/certifyai/yarn.lock
+

@@ -1,0 +1,23 @@
+.custom-card {
+    width: 18rem;
+    height: 25rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.1);
+  }
+  
+.custom-button {
+  width: 100%;
+  background: #224abe;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  transition: background-color 0.3s ease; /* Optional: smooth transition */
+}
+
+.custom-button:hover {
+  background: #11285e; /* Change to desired hover color */
+}

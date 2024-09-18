@@ -1,0 +1,46 @@
+/* Signup.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Background color if needed */
+  }
+  
+  .signup-form-container {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between the fields */
+  }
+  
+  .form-col {
+    flex: 1;
+  }
+  
+  .password-mismatch {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
